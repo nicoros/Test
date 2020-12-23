@@ -8,6 +8,7 @@ public class Test {
         System.out.println(say("github"));
         System.out.println(add(1,2));
         System.out.println(divide(1,2));
+        System.out.println(multi(1,2));
     }
     public static String say(String str){
         return str;
@@ -17,5 +18,8 @@ public class Test {
     }
     public static int divide(int a,int b){
         return a-b;
+    }
+    public static int multi(int a,int b){
+        return a*b;
     }
 }
